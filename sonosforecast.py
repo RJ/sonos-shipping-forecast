@@ -43,7 +43,7 @@ def restore_state(device, state):
 
 def find_station(z, title):
     # NB: doesn't handle pagination, assumes its in first page:
-    return [r for r in z.get_favorite_radio_stations()['favorites'] if r['title'] == 'BBC Radio 4'][0]
+    return [r for r in z.get_favorite_radio_stations()['favorites'] if r['title'] == title][0]
 
 
 def play_station(z, station):
