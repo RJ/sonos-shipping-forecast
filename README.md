@@ -12,6 +12,12 @@ from BBC Radio 4, then restores Sonos to previous state.
   duration
 * Enjoy!
 
+## Crontab Entry
+
+Edit your crontab with <code>crontab -e</code> and add this line:
+
+    48 0 * * *   /path/to/sonos-shipping-forecast/sonosforecast.py
+
 ## Depends
 
 Uses the SoCo controller library: https://github.com/SoCo/SoCo
