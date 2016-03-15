@@ -73,7 +73,7 @@ def find_controller(name):
     for s in list(soco.discover()):
         if s.player_name != name:
             continue
-        ip = s.get_group_coordinator(s.player_name)
+        ip = s.group.coordinator.ip_address
         return soco.SoCo(ip)
     return None
 
