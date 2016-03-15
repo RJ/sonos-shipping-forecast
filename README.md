@@ -20,4 +20,4 @@ Edit your crontab with <code>crontab -e</code> and add this line:
 
 ## Depends
 
-Uses the SoCo controller library: https://github.com/SoCo/SoCo
+Uses the SoCo controller library: https://github.com/SoCo/SoCo version 0.11.1
